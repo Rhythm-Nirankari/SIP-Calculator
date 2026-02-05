@@ -15,7 +15,7 @@ export const InfoTooltip: React.FC<InfoTooltipProps> = ({ text, children, offset
         : `absolute left-0 bottom-full mb-3 p-0 bg-[#B2E5F9]/70 backdrop-blur-sm border border-[#B2E5F9] rounded-xl w-[240px] shadow-[0_20px_50px_rgba(0,0,0,0.5)] opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none z-[100] transform translate-y-2 group-hover:translate-y-0 ${offsetClass}`;
 
     return (
-        <div className="group relative inline-block cursor-help">
+        <div className="group relative inline-block cursor-default">
             <span className="transition-colors group-hover:text-[#B2E5F9]">
                 {children}
             </span>
