@@ -61,7 +61,7 @@ No frameworks, no bloat—just clean, efficient code.
 ## Try It Out
 
 ### Live Demo
-**[https://sip-calculator-pied.vercel.app/](#)** _(add your deployment link)_
+**[https://sip-calculator-pied.vercel.app/](#)**
 
 ### Run Locally
 Want to tinker with the code? Here's how:
