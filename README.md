@@ -61,7 +61,7 @@ No frameworks, no bloat—just clean, efficient code.
 ## Try It Out
 
 ### Live Demo
-**[https://sip-calculator-pied.vercel.app/](#)**
+**[https://sip-calculator-1phpknzyq-rhythm-nirankaris-projects.vercel.app](#)**
 
 ### Run Locally
 Want to tinker with the code? Here's how:
