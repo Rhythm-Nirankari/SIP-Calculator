@@ -61,7 +61,7 @@ No frameworks, no bloat—just clean, efficient code.
 ## Try It Out
 
 ### Live Demo
-**[Check it out here](#)** _(add your deployment link)_
+**[https://sip-calculator-pied.vercel.app/](#)** _(add your deployment link)_
 
 ### Run Locally
 Want to tinker with the code? Here's how:
@@ -98,42 +98,28 @@ Then we break it down:
 
 The chart plots this growth year by year so you can literally see your money working for you!
 
-## Screenshots
-
-
-## Screenshots
-
 ### Main Dashboard
 ![Main Dashboard](screenshots/main-dashboard.png)
+
+Clean, intuitive interface with all your calculations at a glance
 
 ### Growth Visualization
 ![Growth Chart](screenshots/growth-chart.png)
 
+Watch your investments compound over time with interactive charts
+
 ### Educational Sidebar
 ![Sidebar](screenshots/sidebar-education.png)
+
+Sidebar education panel explaining everything you need to know
 
 ### Goal Planner
 ![Goal Planner](screenshots/goal-planner.png)
 
-### Mobile View
-![Mobile View](screenshots/mobile-view.png)
-
-
-### How to Organize Them
-
-## Screenshots
-
-### Main Dashboard
-Clean, intuitive interface with all your calculations at a glance
-
-### Growth Visualization
-Watch your investments compound over time with interactive charts
-
-### Goal Planner
 Set targets and see if you're on track (spoiler: compound interest is powerful!)
 
-### Learn Mode
-Sidebar education panel explaining everything you need to know
+### Mobile View
+![Mobile View](screenshots/mobile-view.png)
 
 ## Real Talk: What You Should Know
 
@@ -167,44 +153,13 @@ We wanted to make financial planning feel less intimidating and more approachabl
 - **Minimal clutter** so you focus on what matters - your financial goals
 
 **Bottom line**: This should feel like a modern app, not a spreadsheet.
-
-## Coming Soon
-
-Ideas we're exploring for future versions:
-
-- [ ] Export results as PDF reports
-- [ ] Tax calculation features
-- [ ] Historical market data overlays
-- [ ] Multiple portfolio comparison
-- [ ] Dark/Light theme toggle
-- [ ] Shareable calculation links
-- [ ] Monthly reminder notifications
-
-Got ideas? Open an issue or send a PR!
-
-## Why This Exists
-
-Financial literacy should be accessible to everyone. Too many investment tools are either:
-1. Way too complicated with finance jargon, or
-2. Too simple and give you no real insights
-
 This calculator tries to hit the sweet spot—powerful enough to be useful, simple enough for anyone to understand.
-
 Whether you're a college student planning your first investment or someone planning retirement, this tool is for you.
 
 ## License
 
 MIT License - feel free to use, modify, and share!
 
-## Contributing
-
-Found a bug? Have a cool feature idea? Contributions are welcome!
-
-1. Fork the repo
-2. Create your feature branch (`git checkout -b cool-new-feature`)
-3. Commit your changes (`git commit -m 'Added something awesome'`)
-4. Push to the branch (`git push origin cool-new-feature`)
-5. Open a Pull Request
 
 ## Get In Touch
 
