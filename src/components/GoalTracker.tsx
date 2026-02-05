@@ -206,7 +206,7 @@ export const GoalPlanner: React.FC<GoalPlannerProps> = ({
                     {/* Bottom Info */}
                     <div className="flex items-center gap-3 text-[10px] text-slate-600 uppercase tracking-widest font-bold border-t border-[#242425] pt-6 mt-6">
                         <span className="text-[#B2E5F9] text-base">* </span>
-                        <span>Adjusted for {inflationRate}% expected annual inflation over {years} years.</span>
+                        <span className="text-white/85">Adjusted for {inflationRate}% expected annual inflation over {years} years.</span>
                     </div>
                 </div>
             </div>
