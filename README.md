@@ -100,39 +100,6 @@ The chart plots this growth year by year so you can literally see your money wor
 
 ## Screenshots
 
-### Where to Add Your Screenshots
-
-Here's what you should capture to show off your hard work:
-
-1. **`screenshots/main-dashboard.png`**
-   - Full view of the calculator with all sections visible
-   - Shows the clean dark interface and cool color scheme
-
-2. **`screenshots/tooltip-demo.png`**
-   - Capture a tooltip in action! Hover over "Return Rate (P.A)" or "Time Period" and screenshot it
-   - This shows how beginner-friendly your app is
-
-3. **`screenshots/onboarding-tour.png`**
-   - Screenshot of the onboarding screen that guides new users
-   - Shows the icons and explanations for first-time visitors
-
-4. **`screenshots/growth-chart.png`**
-   - Close-up of the beautiful growth trajectory chart
-   - Highlight those smooth gradients and data visualization
-
-5. **`screenshots/goal-planner.png`**
-   - The goal planning section with car/house/trip/custom options
-   - Show the target value and coverage percentage
-
-6. **`screenshots/sidebar-education.png`**
-   - The "Learn More" sidebar open, showing the investment basics content
-   - Proves you're teaching people, not just giving them numbers
-
-7. **`screenshots/mobile-view.png`**
-   - How it looks on a phone screen
-   - Show that large, readable font in action!
-
-### How to Organize Them
 
 ## Screenshots
 
@@ -150,6 +117,11 @@ Here's what you should capture to show off your hard work:
 
 ### Mobile View
 ![Mobile View](screenshots/mobile-view.png)
+
+
+### How to Organize Them
+
+## Screenshots
 
 ### Main Dashboard
 Clean, intuitive interface with all your calculations at a glance
