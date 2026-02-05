@@ -58,13 +58,7 @@ This is a clean, frontend-only application:
 
 No frameworks, no bloat—just clean, efficient code.
 
-## Try It Out
-
-### Live Demo
-**[https://sip-calculator-1phpknzyq-rhythm-nirankaris-projects.vercel.app](#)**
-
-### Run Locally
-Want to tinker with the code? Here's how:
+**[Live Demo](https://sip-calculator-1phpknzyq-rhythm-nirankaris-projects.vercel.app)**
 
 ```bash
 # Clone this repo

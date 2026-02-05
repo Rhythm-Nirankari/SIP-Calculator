@@ -101,7 +101,7 @@ export const Results: React.FC<ResultsProps> = ({ result, yearlyData }) => {
                     />
                 </div>
 
-                <div className="glass-card p-0 mesh-gradient relative min-h-[180px] flex flex-col">
+                <div className="glass-card p-0 mesh-gradient relative min-h-[180px] flex flex-col overflow-visible">
                     <div className="p-8 relative z-10 w-full h-full flex flex-col justify-between flex-1">
                         <div className="flex items-center justify-between">
                             <p className="text-[15px] font-bold text-white/95 uppercase tracking-[0.2em] mb-10 flex items-center">
@@ -111,7 +111,6 @@ export const Results: React.FC<ResultsProps> = ({ result, yearlyData }) => {
                             </p>
                         </div>
                         <div className="mt-4">
-                            <p className="text-[12px] font-semibold text-white/95 mb-2">Current balance</p>
                             <div className="flex items-center gap-1">
                                 <ValueWithTooltip
                                     value={formatCurrency(result.totalValue)}
