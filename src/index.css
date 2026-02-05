@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #111112;
+    --card-bg: #1F1F20;
+    --card-border: #242425;
+    --accent-sky: #B2E5F9;
+  }
+
+  body {
+    @apply bg-[#111112] text-white selection:bg-[#B2E5F9] selection:text-black;
+    font-family: 'Urbanist', sans-serif;
+  }
+}
+
+/* Glassmorphism Utilities - Finexa Style */
+@layer components {
+  .glass-card {
+    @apply bg-[#1F1F20] border border-[#242425] rounded-[32px] transition-all duration-500 hover:border-[#B2E5F9]/20;
+  }
+
+  .glass-input {
+    @apply bg-[#111112] border border-[#242425] rounded-2xl focus:border-[#B2E5F9]/50 outline-none transition-all;
+  }
+
+  .mesh-gradient {
+    background: linear-gradient(135deg, rgba(5, 10, 71, 0.8) 0%, rgba(123, 245, 237, 0.7) 100%),
+      radial-gradient(circle at 0% 0%, #050a47 0%, transparent 70%),
+      radial-gradient(circle at 100% 100%, #7bf5ed 0%, transparent 70%);
+    @apply relative border-none overflow-hidden bg-[#050a47];
+  }
+
+  .gradient-text-blue {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-[#06B6D4];
+  }
+}
+
+/* 
+  PREMIUM PALETTES (Copy/Paste the 'to-...' part above to change the color):
+  - Vibrant Blue:     to-[#3B82F6]
+  - Deep Royal:       to-[#2563EB]
+  - Sharp Cyan:       to-[#06B6D4]
+  - Indigo Glow:      to-[#6366F1]
+*/
+/* Hide spin-buttons for Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+/* Hide spin-buttons for Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
