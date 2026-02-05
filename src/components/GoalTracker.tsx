@@ -163,7 +163,7 @@ export const GoalPlanner: React.FC<GoalPlannerProps> = ({
                 <div className="bg-gradient-to-br from-[#B2E5F9]/10 to-[#B2E5F9]/5 rounded-2xl p-6 mr-[5px] mb-[5px]">
                     {/* Horizon Section */}
                     <div className="text-right mb-4">
-                        <InfoTooltip offsetClass="-translate-x-4" text="Number of years until your goal's target should be reached. This affects compounding and inflation adjustment.">
+                        <InfoTooltip placement="left" text="Number of years until your goal's target should be reached. This affects compounding and inflation adjustment.">
                             <p className="text-[13px] uppercase tracking-widest text-white/70 font-bold">Horizon</p>
                         </InfoTooltip>
                         <p className="text-xl font-bold text-white">{years} Years</p>
