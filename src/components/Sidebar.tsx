@@ -64,9 +64,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
                                 Compounding simply means earning returns on your returns.
                             </p>
                             <div className="bg-[#818CF8]/5 border border-[#818CF8]/20 p-6 rounded-[2rem] space-y-4 relative overflow-hidden group">
-                                <p className="font-bold text-[#818CF8] flex items-center gap-2">
-                                    <span className="text-lg">🌱</span> The Tree Analogy
-                                </p>
+                                <p className="font-bold text-[#818CF8] flex items-center gap-2">The Tree Analogy</p>
                                 <p className="text-sm italic text-white/60">
                                     In the first few years, a tree's growth feels small. But later, it grows faster and starts producing fruits. Those fruits then create more seeds, which grow into more trees.
                                 </p>
