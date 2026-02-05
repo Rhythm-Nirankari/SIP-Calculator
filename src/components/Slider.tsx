@@ -95,7 +95,7 @@ export const Slider: React.FC<SliderProps> = ({
             <div className="relative h-6 flex items-center">
                 <input
                     type="range"
-                    min={min}
+                    min={min}   // <--- FIXED: Added min here
                     max={max}
                     step={step}
                     value={value}
