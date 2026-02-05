@@ -57,6 +57,7 @@ This is a clean, frontend-only application:
 - **Chart.js** - Those gorgeous charts you see
 
 No frameworks, no bloat—just clean, efficient code.
+
 **[Live Demo](https://sip-calculator-1phpknzyq-rhythm-nirankaris-projects.vercel.app)**
 
 ```bash
