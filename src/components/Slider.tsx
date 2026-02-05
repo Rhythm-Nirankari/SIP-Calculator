@@ -12,7 +12,7 @@ interface SliderProps {
 }
 
 // Helper function to generate landmark values based on range
-const getLandmarks = (min: number, max: number): { value: number; label: string }[] => {
+const getLandmarks = (max: number): { value: number; label: string }[] => {
     // For SIP (500-100,000)
     if (max <= 100000) {
         return [
@@ -116,7 +116,7 @@ export const Slider: React.FC<SliderProps> = ({
             {/* Quick Select Landmarks */}
             {unit === '₹' && (
                 <div className="flex flex-wrap gap-2 mt-3">
-                    {getLandmarks(min, max).map((landmark) => (
+                    {getLandmarks(max).map((landmark) => (
                         <button
                             key={landmark.value}
                             onClick={() => onChange(landmark.value)}
