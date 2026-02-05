@@ -134,39 +134,22 @@ Here's what you should capture to show off your hard work:
 
 ### How to Organize Them
 
-```markdown
-## 📸 Screenshots
+## Screenshots
 
 ### Main Dashboard
 ![Main Dashboard](screenshots/main-dashboard.png)
-*Clean, intuitive interface with all your calculations at a glance*
-
-### Beginner-Friendly Tooltips
-![Tooltip Example](screenshots/tooltip-demo.png)
-*Hover over any term to understand what it means - perfect for first-time investors*
-
-### Quick Onboarding Tour
-![Onboarding](screenshots/onboarding-tour.png)
-*New users get a guided tour explaining every icon and feature*
 
 ### Growth Visualization
 ![Growth Chart](screenshots/growth-chart.png)
-*Watch your investments compound over time with interactive charts*
+
+### Educational Sidebar
+![Sidebar](screenshots/sidebar-education.png)
 
 ### Goal Planner
 ![Goal Planner](screenshots/goal-planner.png)
-*Set specific targets like buying a car or house, adjusted for inflation*
 
-### Educational Sidebar
-![Learn More Sidebar](screenshots/sidebar-education.png)
-*Built-in investment guide - learn as you plan*
-
-### Mobile-Friendly Design
+### Mobile View
 ![Mobile View](screenshots/mobile-view.png)
-*Large fonts and touch-friendly interface work perfectly on any device*
-```
-
----
 
 ### Main Dashboard
 Clean, intuitive interface with all your calculations at a glance
