@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Info } from 'lucide-react';
+import { X } from 'lucide-react';
 
 interface SidebarProps {
     isOpen: boolean;
@@ -22,9 +22,6 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
                 {/* Header */}
                 <div className="p-8 border-b border-[#242425] flex items-center justify-between bg-[#111112]/90 backdrop-blur-xl sticky top-0 z-10">
                     <div className="flex items-center gap-4">
-                        <div className="p-3 rounded-2xl bg-[#B2E5F9]/10 border border-[#B2E5F9]/20">
-                            <Info className="w-6 h-6 text-[#B2E5F9]" />
-                        </div>
                         <div>
                             <h2 className="text-xl font-bold text-white tracking-tight">Investment Basics</h2>
                         </div>
