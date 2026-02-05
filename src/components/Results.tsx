@@ -19,9 +19,9 @@ const ValueWithTooltip: React.FC<{ value: string; displayValue: string; classNam
     tooltipBg = "bg-[#1F1F20]",
     tooltipText = "text-white"
 }) => (
-    <div className="group relative cursor-help inline-block">
+    <div className="group relative inline-block">
         <span className={className}>{displayValue}</span>
-        <div className={`absolute left-1/2 -translate-x-1/2 bottom-full mb-3 px-4 py-2 ${tooltipBg} border border-[#242425] rounded-2xl text-sm font-bold ${tooltipText} shadow-2xl opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none whitespace-nowrap z-[100] transform translate-y-2 group-hover:translate-y-0`}>
+        <div className={`absolute left-1/2 bottom-full mb-3 px-4 py-2 ${tooltipBg} border border-[#242425] rounded-2xl text-sm font-bold ${tooltipText} shadow-2xl opacity-0 group-hover:opacity-100 transition-all duration-200 pointer-events-none whitespace-nowrap z-[9999] transform -translate-x-1/2 translate-y-0 group-hover:-translate-y-3`}>
             {value}
             <div className={`absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent transition-colors duration-300 ${tooltipBg.includes('bg-[#B2E5F9]') ? 'border-t-[#B2E5F9]/70' :
                 tooltipBg.includes('bg-[#1F1F20]/70') ? 'border-t-[#1F1F20]/70' :
