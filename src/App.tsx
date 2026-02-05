@@ -6,7 +6,9 @@ import { calculateSIP, calculateLumpsum, calculateYearlyBreakdown } from './util
 import { GoalPlanner, GOALS } from './components/GoalTracker';
 import { Sidebar } from './components/Sidebar';
 import { FAQ } from './components/FAQ';
+import { Footer } from './components/Footer';
 import type { GoalType } from './components/GoalTracker';
+
 
 function App() {
   const [mode, setMode] = useState<'SIP' | 'Lumpsum'>('SIP');
@@ -100,6 +102,8 @@ function App() {
       </div>
 
       <Sidebar isOpen={isSidebarOpen} onClose={() => setIsSidebarOpen(false)} />
+
+      <Footer />
     </div>
   );
 }
