@@ -97,35 +97,35 @@ export const CalculatorForm: React.FC<CalculatorFormProps> = ({
                         />
                     </div>
 
-                  {mode === 'SIP' && (
-    <div className="pt-4 relative group">
-       {/* --- TOOLTIP START --- */}
-      <div className="absolute bottom-full left-0 mb-0.5 hidden group-hover:block w-64 z-50">
-        <div className="relative bg-[#B2E5F9] text-white text-xs p-3 rounded-lg shadow-lg backdrop-blur-sm">
-          
-          {/* Tooltip Content */}
-          <p className="font-medium text-center leading-relaxed">
-            Increases your investment amount annually to match income growth.
-          </p>
+                    {mode === 'SIP' && (
+                        <div className="pt-4 relative group">
+                            {/* --- TOOLTIP START --- */}
+                            <div className="absolute bottom-full left-0 mb-0.5 hidden group-hover:block w-64 z-50">
+                                <div className="relative bg-[#B2E5F9]/70 text-white text-xs p-3 rounded-lg shadow-lg backdrop-blur-sm">
 
-          {/* The "Tail" (Comment Shape) - Matches the Cyan/70% background */}
-          <div className="absolute top-full left-2 -mb-0.5 
-                          border-8 border-transparent border-t-[#B2E5F9]"></div>
-        
-        </div>
-      </div>
-      {/* --- TOOLTIP END --- */}
-        <Slider
-            label="Annual Step-Up"
-            value={stepUp}
-            min={0}
-            max={50}
-            step={1}
-            onChange={setStepUp}
-            unit="%"
-        />
-    </div>
-)}
+                                    {/* Tooltip Content */}
+                                    <p className="font-medium text-center leading-relaxed">
+                                        Increases your investment amount annually to match income growth.
+                                    </p>
+
+                                    {/* The "Tail" (Comment Shape) - Matches the Cyan/70% background */}
+                                    <div className="absolute top-full left-2 -mb-0.5 
+                          border-8 border-transparent border-t-[#B2E5F9]/70"></div>
+
+                                </div>
+                            </div>
+                            {/* --- TOOLTIP END --- */}
+                            <Slider
+                                label="Annual Step-Up"
+                                value={stepUp}
+                                min={0}
+                                max={50}
+                                step={1}
+                                onChange={setStepUp}
+                                unit="%"
+                            />
+                        </div>
+                    )}
                 </div>
 
             </div>
