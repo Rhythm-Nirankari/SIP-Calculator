@@ -29,7 +29,7 @@
     background: linear-gradient(135deg, rgba(5, 10, 71, 0.8) 0%, rgba(123, 245, 237, 0.7) 100%),
       radial-gradient(circle at 0% 0%, #050a47 0%, transparent 70%),
       radial-gradient(circle at 100% 100%, #7bf5ed 0%, transparent 70%);
-    @apply relative border-none overflow-hidden bg-[#050a47];
+    @apply relative border-none bg-[#050a47];
   }
 
   .gradient-text-blue {
